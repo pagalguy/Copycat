@@ -1,0 +1,26 @@
+{
+  "name": "copycat",
+  "version": "0.0.1",
+  "description": "Copycat is a service that can save, replay & test HTTP requests across different stacks, versions of API endpoints. You can use Copycat to do integration and load testing when you are migrating an API across stacks or transitioning to a new API version.",
+  "scripts": {
+    "deploy" : "make deploy-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonnes/copycat.git"
+  },
+  "author": "Ravi Atluri",
+  "bugs": {
+    "url": "https://github.com/sonnes/copycat/issues"
+  },
+  "homepage": "https://github.com/sonnes/copycat#readme",
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "sinon": "^7.2.3"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.4.2",
+    "jsonata": "^1.6.4",
+    "superagent": "^4.1.0"
+  }
+}
